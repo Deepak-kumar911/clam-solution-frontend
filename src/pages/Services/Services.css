@@ -1,0 +1,76 @@
+/*=============== VARIABLES CSS ===============*/
+:root {
+
+/*====== Theme color ======*/
+/* background color */
+--bg-color-1: #ffffff;
+--bg-color-2: #676f9d;
+--bg-color-3: #424769;
+--bg-color-4: #2d3250;
+--bg-color-5: #f9b17a;
+
+/* Text color */
+--color-1: #ffffff;
+--color-2: #676f9d;
+--color-3: #424769;
+--color-4: #2d3250;
+--color-5: #f9b17a;
+
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul {
+    list-style: none;
+    /* Color highlighting when pressed on mobile devices */
+    /*-webkit-tap-highlight-color: transparent;*/
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+/*====== class define for values ======*/
+
+/* text background color class */
+.bg-color-1{background-color: var(--bg-color-1)}
+.bg-color-2{background-color: var(--bg-color-2)}
+.bg-color-3{background-color: var(--bg-color-3)}
+.bg-color-4{background-color: var(--bg-color-4)}
+.bg-color-5{background-color: var(--bg-color-5)}
+
+/* text color class */
+.color-1{color: var(--color-1)!important;}
+.color-2{color: var(--color-2)!important;}
+.color-3{color: var(--color-3)!important;}
+.color-4{color: var(--color-4)!important;}
+.color-5{color: var(--color-5)!important;}
+
+
+/*=============== Page Content CSS ===============*/
+/*====== First into ======*/
+.btn:hover{
+    background-color:#dc3545;
+    color: var(--color-1);
+}
+/* .h1.title.mt-5 {
+    color: aquamarine;
+} */
+  
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+    /* small devices CSS */
+}
+  
+  /* For large devices */
+@media screen and (min-width: 1118px) {
+    /* large devices CSS */
+}

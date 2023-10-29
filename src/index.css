@@ -1,0 +1,143 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+  
+/*=============== VARIABLES CSS ===============*/
+:root {
+
+    /*==========Theme Colors ==========*/
+    /* background color */
+    --bg-color-1: #ffffff ;
+    --bg-color-2: #676f9d ;
+    --bg-color-3: #424769 ;
+    --bg-color-4: #2d3250 ;
+    --bg-color-5: #f9b17a ;
+    --bg-color-6: #ff2525 ;
+    --bg-color-7:#fefdf9;
+
+    
+    /* Text color */
+    --color-1: #ffffff;
+    --color-2: #676f9d;
+    --color-3: #424769;
+    --color-4: #2d3250;
+    --color-5: #f9b17a;
+    --color-6: #ff2525;
+
+  }
+  
+  /*=============== REUSABLE CSS CLASSES ===============*/
+  /*====== class define for values ======*/
+  
+  /* text background color class */
+  .bg-color-1{background-color: var(--bg-color-1) ;}
+  .bg-color-2{background-color: var(--bg-color-2) ;}
+  .bg-color-3{background-color: var(--bg-color-3) ;}
+  .bg-color-4{background-color: var(--bg-color-4) ;}
+  .bg-color-1{background-color: var(--bg-color-1) ;}
+  .bg-color-6{background-color: var(--bg-color-6) ;}
+  .bg-color-7{background-color: var(--bg-color-7);}
+
+  
+  /* text color class */
+  .color-1{color: var(--color-1);}
+  .color-2{color: var(--color-2);}
+  .color-3{color: var(--color-3);}
+  .color-4{color: var(--color-4);}
+  .color-5{color: var(--color-5);}
+  .color-6{color: var(--bg-color-6);}
+  
+  /*=============== BASE ===============*/
+/* universal */
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none !important;
+}
+
+body {
+  background-color: #2d3550;
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* For Container class */
+@media screen and (width > 576px){
+  .container-px-5{
+    padding:0rem 3rem!important;
+  }
+}
+
+/*=============== Index page CSS ===============*/
+/* first part */
+.title {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* Our serviecs */
+img.btn-icon {
+  width: 50px;
+}
+
+.nav-link {
+  color: var(--color-4);
+  background-color: var(--bg-color-1) !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: var(--color-1);
+  background-color: var(--bg-color-5) !important;
+}
+
+.Slider-3 {
+  justify-content: center;
+}
+
+/* contact us */
+/* iframr css */
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 400px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+}
+
+.gmap_iframe {
+  height: 400px !important;
+}
+
+
+
+
+
+
+
+/* deepak */
+.otp-input{
+  border-radius: 0.5rem;
+  border-color: rgb(4, 4, 255);
+  outline: none;
+  /* color: var(--color-4); */
+  min-height: 3rem;
+  min-width: 2rem;
+}
+.otp-input:focus{
+  border-color: var(--color-6);
+}
+
